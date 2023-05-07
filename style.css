@@ -8,9 +8,14 @@
     padding: 0%;
 }
 
+html{
+    margin-right: -20px;
+
+}
+
 body {
-    margin-left: -15px;
-    margin-right: -15px;
+    /* margin-left: -20px; */
+    margin-right: -20px;
     overflow-x: hidden;
 }
 
@@ -91,8 +96,8 @@ h4.prime {
 }
 
 #profile-img {
-    border-radius: 5%;
-    height: auto;
+
+    border-radius: 5%;;
     object-fit: cover;
 }
 
@@ -168,6 +173,18 @@ h4.prime {
     letter-spacing: 10px;
 }
 
+@media (max-width:767px) {
+    #about-me{
+        position:static;
+        margin: 0;
+        background-color: #A5D7E8;
+        padding-top: 20px;
+}
+#about-me h1{
+    margin-bottom: 0%;
+}
+
+}
 #about-me>h1 {
     font-size: 55px;
 }
