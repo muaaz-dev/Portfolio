@@ -1,0 +1,352 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.cdnfonts.com/css/gotham');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    margin-left: -15px;
+    margin-right: -15px;
+    overflow-x: hidden;
+}
+
+/* HomePage */
+#home {
+    height: 95vh;
+    padding: 0%;
+}
+
+.scroll-btn{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50%;
+    /* border-bottom: 2px solid #fff; */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.322);
+    position: absolute;
+    right: 2%;
+    bottom: 7%;
+}
+
+.div-muaaz {
+    height: 100%;
+    /* color: #000; */
+    background: #000;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 2px;
+    justify-content: end;
+    align-items: center;
+}
+
+#muaaz {
+    font-size: 165px;
+    font-weight: 800;
+    position: relative;
+    left: 150px;
+    transform: rotate(-90deg);
+    letter-spacing: 1px;
+}
+
+.div-developer {
+    height: 100%;
+    color: #fff;
+    background-color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    -webkit-text-fill-color: #000;
+    -webkit-text-stroke: 2px;
+    align-items: center;
+}
+
+#developer {
+    font-size: 117px;
+    font-weight: 800;
+    position: relative;
+    right: 210px;
+    transform: rotate(90deg);
+}
+
+/* Introduction */
+#introduction {
+    height: 100%;
+    padding: 0;
+    background-color: #000;
+}
+
+h1.prime {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2.text-white {
+    font-weight: normal;
+    font-family: 'Gotham Thin', sans-serif;
+
+
+}
+
+h3.prime,
+h4.prime {
+    font-family: 'Gotham Thin', sans-serif;
+    font-size: 2rem;
+
+}
+
+#intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profile-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5%;;
+    object-fit: cover;
+}
+
+
+.prime {
+    color: #fff;
+}
+
+/* Skillset */
+
+#skillset {
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+#skillset>h2 {
+    font-weight: bold;
+    /* color: white; */
+    font-size: 3.5rem;
+}
+
+/* Portfolio */
+#portfolio {
+    color: #fff;
+    height: 100%;
+}
+
+.projects {
+    background-color: #fff;
+    width: 18rem;
+}
+
+.projects>video {
+    border-radius: 5%;
+}
+
+.projects>img {
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.card-footer {
+    background-color: #fff;
+}
+
+.card-footer>a {
+    border-radius: 10px;
+    color: #fff;
+    background-color: black;
+    transition: 0.3s;
+    border: 2px solid #000;
+}
+
+.card-footer>a:hover {
+    color: #000;
+    background-color: white;
+}
+
+/* .view-more{
+    background-color: #fff;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    outline: none;
+    padding: 0.7em 2.1em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+   }
+   .view-more:disabled {
+       pointer-events: none;
+    }
+   
+    .view-more:hover {
+    color: #fff;
+    background-color: #000;
+    box-shadow: rgba(255, 255, 255, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   .view-more:active {
+    box-shadow: none;
+    transform: translateY(0);
+}
+*/
+
+
+/* About Me */
+
+#about-me > h1{ 
+    color: black;
+    -webkit-text-fill-color: #fff;
+    -webkit-text-stroke: 1px;
+
+}
+
+#about-me-page {
+    height: 100%;
+}
+
+#about-me {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-family: 'Gotham', sans-serif;
+    letter-spacing: 10px;
+}
+
+@media (max-width:767px) {
+    #about-me{
+        position:static;
+        margin: 0;
+        background-color: #fff;
+        padding-top: 20px;
+}
+#about-me h1{
+    margin-bottom: 0%;
+}
+
+}
+#about-me>h1 {
+    font-size: 55px;
+}
+
+#interest-hobbies {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10%;
+    background: #fff;
+    color: black;
+    font-size: 17px;
+}
+
+#details {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10%;
+    color: #fff;
+    font-size: 1.4em;
+
+}
+
+/* get-in-touch Page */
+#contact {
+    background-color: #fff;
+    height: 100vh;
+    font-family: 'open sans', sans-serif;
+}
+
+#contact h1 {
+    font-size: xxx-large;
+}
+
+#contact-detail {
+    background-color: #000;
+    width: 75%;
+    height: 80%;
+    border-radius: 21px;
+}
+
+.footer-social-links {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.footer-social-links a {
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+    position: relative;
+    margin: 0 5px;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+}
+
+.footer-social-links a i,
+.footer-social-links a span {
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+.footer-social-links a:before {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    -webkit-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -moz-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -o-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+    transition: all 0.27s cubic-bezier(0.300, 0.100, 0.580, 1.000);
+
+}
+
+.footer-social-links a:hover {
+    color: #787878;
+}
+
+
+#bottom-quote {
+
+    font-size: large;
+    margin-bottom: 10%;
+    color: white;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+    #profile-img {
+        max-width: 300px;
+    }
+    #intro-content{
+        text-align: center;
+    }
+
+  } 

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/static/js/main.3ba264c5.js",
+    "static/media/lofiClock.png": "/static/media/lofiClock.3dc6582d67574cafc911.png",
+    "static/media/wiserblack.png": "/static/media/wiserblack.6c9b8c0bea15bfa3dbdb.png",
+    "static/media/tindog.png": "/static/media/tindog.c28fb5f0a9a6c5fa7cfe.png",
+    "static/media/face.jpg": "/static/media/face.9507367ef16375229a19.jpg",
+    "static/media/whitefish.png": "/static/media/whitefish.bff756b83e053f92359e.png",
+    "index.html": "/index.html",
+    "main.3ba264c5.js.map": "/static/js/main.3ba264c5.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.3ba264c5.js"
+  ]
+}
